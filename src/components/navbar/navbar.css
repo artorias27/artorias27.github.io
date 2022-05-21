@@ -1,0 +1,30 @@
+.navbar {
+    height: 51px;
+    display: flex;
+    border-bottom: 0.5px solid rgb(230, 227, 227);
+    align-items: center;
+    font-size: 13px;
+    color: #555;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 30px; */
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.item:last-child {
+    margin-right: 20px;
+}

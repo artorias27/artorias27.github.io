@@ -1,0 +1,77 @@
+.sidebar {
+    flex: 1;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    background-color: white;
+}
+
+.top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoWrapper {
+    background-color: rgb(230, 238, 204);
+    width: 100px;
+    height: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+}
+
+.center {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul .title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: rgb(230, 225, 230);
+}
+
+.menu-active {
+    background-color: rgb(230, 225, 230);
+    color: rgb(108, 63, 214);
+}
+
+.icon {
+    font-size: 12px;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 8px;
+}
+
